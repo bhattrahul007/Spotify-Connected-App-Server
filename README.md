@@ -1,5 +1,5 @@
 # Spotify Clone App Authenication Server
-This repository is the code to run an authorization/authentication server to connect to the Spotify API. The server is to be used in conjunction with the front-end code of the cloned app found [here](https://github.com/JL978/spotify-clone-client)
+This repository is the code to run an authorization/authentication server to connect to the Spotify API. The server is to be used in conjunction with the front-end code of the cloned app found [here](https://github.com/bhattrahul007/Spotify-Connected-App-client/tree/master)
 
 ## Motivation
 When working with the [Spotify API](https://developer.spotify.com/documentation/web-api/), you must follow this authorization [guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/) provided on the API documentation. The basis of this authorization flow involve using a client id and client secret provided by signing up on the Spotify Developer dash board. These keys must be sent with every single request made to the Spotify server. 
@@ -16,9 +16,7 @@ This project requires [node](http://nodejs.org) and [npm](https://npmjs.com) ins
 
 Clone the repository to a directory of your choosing
 
-```sh
-$ git clone https://github.com/JL978/spotify-clone-server.git
-```
+
 Navigate into spotify-clone-server and install the necessary packages
 
 ```sh
@@ -50,7 +48,7 @@ REXP = /\.localhost:3000/
 
 ## Usage
 
-This server is to be consumed by a front-end application - namely the Spotify clone at this [repo](https://github.com/JL978/spotify-clone-client)
+This server is to be consumed by a front-end application - namely the Spotify clone at this [repo](https://github.com/bhattrahul007/Spotify-Connected-App-client/tree/master)
 
 The following endpoints are available
 
